@@ -1,5 +1,6 @@
-import React from 'react'
-import "./Home.css"
+import React from 'react';
+import "./Home.css";
+import Cartform from './Cartform';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <Cartform/>
     </div>
   )
 }
