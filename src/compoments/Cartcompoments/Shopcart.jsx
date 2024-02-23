@@ -1,7 +1,8 @@
 import React from 'react'
 import "../Style/Shopcart.css"
 
-const Shopcart = ({ list }) => {
+const Shopcart = ({ list, handleClick }) => {
+ 
   
     if(list){
     const {title, price, img}=list
@@ -15,7 +16,7 @@ const Shopcart = ({ list }) => {
             <div className="details">
                     <p>{title}</p>
                     <p>{price}</p>
-                    <button>add to cart</button>
+                    <button onClick={()=>handleClick(list)}>add to cart</button>
             </div>
             
         </div>

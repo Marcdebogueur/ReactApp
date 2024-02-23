@@ -30,6 +30,9 @@ const list = [
       img: "https://cdn.shopify.com/s/files/1/0639/4812/8508/products/Huron_shower-kit_83ce0144-81e4-4c0b-9bfe-85f6b121b8e1.jpg?v=1650475884",
       amount: 1,
     },
+       
+
+    
   ];
   
   export default list;
