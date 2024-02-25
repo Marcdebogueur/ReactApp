@@ -2,7 +2,7 @@ import React from 'react'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import "../Style/navbar.css"
 
-const Navbar = ({setShow}) => {
+const Navbar = ({setShow, size}) => {
   return (
     <nav>
         <div className="nav_box">
@@ -14,7 +14,7 @@ const Navbar = ({setShow}) => {
                     <ShoppingCartIcon/>    
                 </span>
                 <span>
-                    0
+                    {size}
                  </span>
             </div>
         </div>
